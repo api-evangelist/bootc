@@ -1,12 +1,13 @@
-name: bootc
-description: A transactional, in-place operating system update system that operates
-  on OCI/Docker container images as the source for OS updates
+name: Bootc
+description: >-
+  A transactional, in-place operating system update system that operates on OCI/Docker
+  container images as the source for OS updates.
 url: https://containers.github.io/bootc/
 tags:
-- Container Images
-- Operating Systems
-- System Updates
-- Infrastructure
+  - Container Images
+  - Operating Systems
+  - System Updates
+  - Infrastructure
 created: '2025'
 modified: '2025'
 apis: []
