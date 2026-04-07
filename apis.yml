@@ -5,9 +5,9 @@ description: >-
 url: https://containers.github.io/bootc/
 tags:
   - Container Images
+  - Infrastructure
   - Operating Systems
   - System Updates
-  - Infrastructure
 created: '2025'
 modified: '2025'
 apis: []
