@@ -8,7 +8,7 @@ description: >-
   image includes a Linux kernel, and when deployed the base userspace runs normally
   with systemd as PID 1. Bootc is a CNCF Sandbox project with a stable CLI and API.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/bootc/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-19'
