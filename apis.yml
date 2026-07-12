@@ -23,6 +23,8 @@ tags:
   - System Updates
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/bootc-domain-security.yml
   - type: Website
     url: https://bootc.dev
   - type: Documentation
@@ -35,6 +37,8 @@ common:
     url: https://github.com/bootc-dev/bootc/discussions
   - type: ReleaseNotes
     url: https://github.com/bootc-dev/bootc/releases
+  - url: https://bootc.dev/rss.xml
+    type: Blog
   - name: Use Cases
     type: UseCases
     data:
