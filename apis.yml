@@ -34,6 +34,14 @@ tags:
   - System Updates
 apis: []
 common:
+  - type: IssueTracker
+    url: https://github.com/bootc-dev/bootc/issues
+  - type: SecurityPolicy
+    url: https://github.com/bootc-dev/bootc/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/bootc-dev/bootc/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/bootc-dev/bootc/blob/main/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/bootc-domain-security.yml
   - type: Website
