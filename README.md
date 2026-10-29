@@ -64,42 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bootc is an open source tool that enables transactional, in-place operating system updates using OCI/Docker container images as the source for OS updates. It applies the container layering model to bootable host systems, using standard OCI containers as a transport and delivery format for base OS updates. The container image includes a Linux kernel, and when deployed the base userspace runs normally with systemd as PID 1. Bootc is a CNCF Sandbox project with a stable CLI and API.
+Bootc is an open source tool that enables transactional, in-place operating system updates using OCI/Docker container images as the source for OS updates. It applies the container layering model to bootable host systems, using standard OCI containers as a transport and delivery format for base operating system updates. The container image includes a Linux kernel, and when deployed the base userspace runs normally with systemd as PID 1. Bootc is a CNCF Sandbox project with a stable CLI and API.
 
-**URL:** [https://bootc.dev](https://bootc.dev)
+**Areas:** CNCF · Container Images · Infrastructure · OCI · Open Source · Operating System · System Updates
 
-**Documentation:** [https://bootc.dev/bootc/](https://bootc.dev/bootc/)
+## Bootc on APIs.io
 
-**GitHub:** [https://github.com/bootc-dev/bootc](https://github.com/bootc-dev/bootc)
+Everything profiled for Bootc is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bootc/](https://apis.io/providers/bootc/)** — or go straight to one of the APIs or properties below.
 
-**APIs.yml:** [View APIs Index](https://raw.githubusercontent.com/api-evangelist/bootc/refs/heads/main/apis.yml)
+### Published properties
 
-## CLI Commands
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Command | Description |
-|---------|-------------|
-| `bootc upgrade` | Pull the latest OCI image and stage a new deployment |
-| `bootc upgrade --apply` | Upgrade and auto-apply on next reboot |
-| `bootc upgrade --download-only` | Download update without applying |
-| `bootc switch <image>` | Change the container image reference being tracked |
-| `bootc status` | Display current booted image and staged changes |
-| `bootc rollback` | Revert to previous boot entry |
-| `bootc install to-disk` | Install OS image to a disk |
-| `bootc install to-filesystem` | Install OS image to a filesystem |
+#### Security (1)
 
-## Use Cases
+Authentication, trust centre, and vulnerability disclosure.
 
-- Transactional OS updates using container images
-- Immutable/reproducible infrastructure
-- GitOps-style OS management
-- Air-gapped and offline OS deployments
-- Container-native operating system delivery
+- [Bootc Domain Security](https://apis.io/security/bootc/bootc-domain-security/)
 
-## Community
+## Where to find this API
 
-- CNCF Slack: #bootc-dev
-- Weekly meetings: Fridays at 15:30 UTC on CNCF Zoom
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Maintainers
+- [Website](https://bootc.dev)
+- [Documentation](https://bootc.dev/bootc/)
+- [Blog](https://bootc.dev/rss.xml)
+- [GitHub](https://github.com/containers/bootc)
 
-- **Kin Lane** - kinlane@gmail.com
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bootc/](https://apis.io/providers/bootc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bootc: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bootc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
